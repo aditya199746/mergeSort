@@ -1,3 +1,11 @@
+window.renderMergeSortApp = function (containerId) {
+    document.getElementById(containerId).innerHTML = `
+        <iframe src="https://aditya199746.github.io/mergeSort/"
+            width="100%" height="600px" style="border:none;">
+        </iframe>
+    `;
+};
+
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const divideArea = document.getElementById("divideArea");
 const outPutArea = document.getElementById("outPutArea");
