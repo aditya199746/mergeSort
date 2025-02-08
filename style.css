@@ -1,71 +1,55 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
-    max-width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
 }
 
 .controls {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .box {
-    height: 50px;
     width: 50px;
-    color: black;
-    background-color: beige;
-    border: 1px solid black;
-    margin-top: 5px;
-    text-align: center;
-    font-weight: 700;
-    font-size: x-large;
+    padding: 5px;
+    margin: 5px;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-.sortBtn {
-    border: none;
-    background-color: green;
-    color: white;
-    width: 200px;
-    height: 50px;
-    margin-top: 20px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.area {
-    width: 100%;
-    margin: 10px 0;
+button {
     padding: 10px;
-    background-color: lightblue;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.divideArea {
-    background-color: lightcoral;
+button:hover {
+    background: #0056b3;
 }
 
-.outPutArea {
-    background-color: lightyellow;
-}
-
-.resultArea {
-    background-color: lightgreen;
+.playArea {
+    margin-top: 20px;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
 }
 
 .divideEle,
 .mergeEle {
-    margin: 5px 0;
-    font-weight: bold;
+    background: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
